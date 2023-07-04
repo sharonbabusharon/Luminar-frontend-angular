@@ -1,0 +1,35 @@
+<div class="about continer-fluid">
+	<h2>View Course</h2>
+</div>
+
+
+<section class="py-5">
+	<div class="container px-4 px-lg-5 my-5">
+		<div class="row gx-4 gx-lg-5 align-items-center">
+			<div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" style="height: 400px; width: 400px;"  [src]="viewProduct.image" alt="..." /></div>
+			<div class="col-md-6">
+				<div class="small mb-1">Id:{{viewProduct.id}}</div>
+				<h1 class="display-7 fw-bolder">{{viewProduct.title}}
+				</h1>
+				<div class="fs-5 mb-5">
+					<span class="text-decoration-line-through">Rs{{viewProduct.price}}</span>
+					<span>₹ 28.22</span>
+				</div>
+				<p class="lead">{{viewProduct.description}}</p>
+				<div class="d-flex">
+					<a  (click)="addToCart(viewProduct)" class="btn btn-light  btn-outline-dark mt-3" type="submit">
+						<i class="fa-solid fa-cart-shopping me-1"></i>
+						Add To Cart
+						
+					</a>
+
+					<a (click)="addToWishlist()"  class="btn btn-light  btn-outline-dark  ms-3 mt-3" type="submit">
+						<i class="fa-solid fa-heart  me-1 text-danger"></i>
+						Add To Wishlist
+						
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

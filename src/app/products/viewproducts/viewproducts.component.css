@@ -1,0 +1,28 @@
+
+
+  img{
+	margin-left:18px;
+  }
+
+  .about h2{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+
+  .about{
+    width: 100%;
+    height: 60px;
+    background-color:#8A2BE1;
+  }
+
+.btn{
+  background-color: white;
+}
+
+.btn:hover{
+  background-color: #8A2BE1;
+
+}

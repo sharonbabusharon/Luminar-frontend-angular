@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+
+.view{
+	border-radius: 30px;
+	background-color: #6D1D8E;
+	color: white;
+	font-size: 18px;
+}
+
+#bio{
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.content {
+	padding-top: 150px
+}
+
+#content{
+	padding-top: 130px;
+}
+
+
+#img2{
+	padding-left: 3px;
+margin-left: 77px;
+border-radius: 10px;
+}
+
+#img1{
+margin-left: 35px;
+border-radius: 10px;
+}
+
+#img3{
+border-radius: 10px;
+}
+
+#img4{
+border-radius: 10px;
+}
+.card2{
+   
+    margin-bottom: 20px;
+    border: 2px solid black;
+	width: 300px;
+	height: 500px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.heart {
+    position:absolute;
+     top:29px;
+    right:10px;
+
+}
+
+#addbutton{
+	border: 2px solid  #6D1D8E;
+	border-radius: 30px;
+	color:  #6D1D8E;
+	margin-left: 10px;
+
+}
+
+#coursecard{
+	border: 1px solid white;
+	border-radius: 3%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.pen2{
+    background-image: url("https://www.luminartechnolab.com/static/media/pexels-kindel-media-7054785.47b27e7d.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+    height: 480px;
+    width: 100%;
+	
+    
+
+}
+
+.btnlast{
+	background-color: white;
+	color: #6D1D8E;
+	border-radius: 30px;
+}
+
+
+.pen2 h1{
+    color: aliceblue;
+    padding-top: 80px;
+}
+
+
+.pen2 p{
+color: white;
+}
+
+.last{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#bi{
+	font-family: 'Mulish', sans-serif;
+	font-size: 17px;
+	font-weight: 900;
+	line-height: 16px;
+}
+
+.card{
+	transition: 1s;
+}
+.card:hover{
+	transform: scale(1.02);
+}

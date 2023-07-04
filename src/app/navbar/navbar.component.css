@@ -1,0 +1,18 @@
+.nav-link{
+	font-size: 18px;
+	
+}
+#nav-link:hover{
+	color: #6D1D8E;
+}
+#navlink{
+	color: #6D1D8E;
+}
+
+.navbar{
+	position: sticky;
+	top: 0;
+	padding-left: 140px;
+	padding-right: 140px;
+	z-index: 1;
+}
